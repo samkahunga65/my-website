@@ -2,12 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/programmer.png" />
+    <link href="/dist/output.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Kahunga web dev</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="landing flex h-screen items-center">
+        <div class="header-text">
+          <h1 class="text-4xl font-bold">Hi my name is Samuel</h1>
+          <p>I am a programmer specializing in fullstack web development</p>
+        </div>
+        <div class="my-pic">
+          <img src="public/man.png" alt="">
+        </div>
+      </div>
+      <div class="my-work">
+        <div class="languages flex w-screen justify-center space-x-4">
+          <img class="w-24 aspect-square" src="public/css-3.png" alt="css">
+          <img class="w-24 aspect-square" src="public/js.png" alt="">
+          <img class="w-24 aspect-square" src="public/java.png" alt="">
+          <img class="w-24 aspect-square" src="public/mysql.png" alt="">
+        </div>
+        <div class="career mt-4 mb-4">
+          <h1 class="w-screen text-center text-4xl font-bold underline"> My Work</h1>
+        </div>
+      </div>
+      <div class="footer w-screen h-24 border-t-black border-t-2 relative">
+        <div class="contacts w-screen flex justify-center space-x-4 absolute bottom-0">
+          <div class="linkedin">
+            <img class="w-8" src="public/linkedin.png" alt="linkedin">
+          </div>
+          <div class="email">
+            <img class="w-8" src="public/email.png" alt="email">
+
+          </div>
+          <div class="github">
+            <img class="w-8" src="public/github.png" alt="github">
+          </div>
+          <div class="phone-number">
+            <img class="w-8" src="public/phone-call.png" alt="phone number">
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
